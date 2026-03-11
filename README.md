@@ -1,3 +1,3 @@
-# MeddySDKSuperbuildStandalone
+# MeddySuperbuild
 
-A setup for [MeddySDKSuperbuild](https://github.com/ChristianHinko/MeddySDKSuperbuild) including third-party dependencies such as the Boost C++ Libraries.
+The superbuild version of [MeddySuperproject](https://github.com/ChristianHinkle/MeddySuperproject), building each repository in an isolated manner, as an "install interface" usage of cmake. I.e., by using `ExternalProject` instead of `FetchContent`.
